@@ -17,7 +17,7 @@ const xmlString = `<address>
 
 let parser = new DOMParser();
 let xmlDoc = parser.parseFromString(xmlString, "text/xml" );
-console.log("work");
+// console.log("work");
 xmlDoc.getElementsByTagName("streetNumber")[0].childNodes[0].nodeValue;
 
 xmlDoc.getElementsByTagName("street")[0].childNodes[0].nodeValue;
